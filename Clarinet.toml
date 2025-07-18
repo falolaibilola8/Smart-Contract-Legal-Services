@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/case-outcome-tracking.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.legal-fee-calculation]
+path = 'contracts/legal-fee-calculation.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
